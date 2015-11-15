@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		6762B1551BF279ED004A289F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6762B1541BF279ED004A289F /* main.m */; };
 		6762B1581BF279ED004A289F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6762B1571BF279ED004A289F /* AppDelegate.m */; };
-		6762B15B1BF279ED004A289F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6762B15A1BF279ED004A289F /* ViewController.m */; };
 		6762B15E1BF279ED004A289F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6762B15C1BF279ED004A289F /* Main.storyboard */; };
 		6762B1601BF279ED004A289F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6762B15F1BF279ED004A289F /* Assets.xcassets */; };
 		6762B1631BF279ED004A289F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6762B1611BF279ED004A289F /* LaunchScreen.storyboard */; };
 		6762B16E1BF279ED004A289F /* ShihChi_Lin_Lab4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6762B16D1BF279ED004A289F /* ShihChi_Lin_Lab4Tests.m */; };
 		6762B1791BF279ED004A289F /* ShihChi_Lin_Lab4UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6762B1781BF279ED004A289F /* ShihChi_Lin_Lab4UITests.m */; };
+		6762B18A1BF2827A004A289F /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 6762B1871BF2827A004A289F /* Task.m */; };
+		6762B18B1BF2827A004A289F /* TaskList.m in Sources */ = {isa = PBXBuildFile; fileRef = 6762B1891BF2827A004A289F /* TaskList.m */; };
+		6762B18E1BF285A7004A289F /* TaskListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6762B18D1BF285A7004A289F /* TaskListTableViewController.m */; };
+		6762B1911BF285C0004A289F /* EditTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6762B1901BF285C0004A289F /* EditTaskViewController.m */; };
+		6762B1941BF285D7004A289F /* DueDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6762B1931BF285D7004A289F /* DueDateViewController.m */; };
+		6762B1971BF285F6004A289F /* PriorityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6762B1961BF285F6004A289F /* PriorityViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +44,6 @@
 		6762B1541BF279ED004A289F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6762B1561BF279ED004A289F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6762B1571BF279ED004A289F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6762B1591BF279ED004A289F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6762B15A1BF279ED004A289F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6762B15D1BF279ED004A289F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6762B15F1BF279ED004A289F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6762B1621BF279ED004A289F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +54,18 @@
 		6762B1741BF279ED004A289F /* ShihChi_Lin_Lab4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShihChi_Lin_Lab4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6762B1781BF279ED004A289F /* ShihChi_Lin_Lab4UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShihChi_Lin_Lab4UITests.m; sourceTree = "<group>"; };
 		6762B17A1BF279ED004A289F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6762B1861BF2827A004A289F /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Task.h; path = "../../Temple 2015 Fall/iOS Programming/Lab2/Lab2/Task.h"; sourceTree = "<group>"; };
+		6762B1871BF2827A004A289F /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Task.m; path = "../../Temple 2015 Fall/iOS Programming/Lab2/Lab2/Task.m"; sourceTree = "<group>"; };
+		6762B1881BF2827A004A289F /* TaskList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TaskList.h; path = "../../Temple 2015 Fall/iOS Programming/Lab2/Lab2/TaskList.h"; sourceTree = "<group>"; };
+		6762B1891BF2827A004A289F /* TaskList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TaskList.m; path = "../../Temple 2015 Fall/iOS Programming/Lab2/Lab2/TaskList.m"; sourceTree = "<group>"; };
+		6762B18C1BF285A7004A289F /* TaskListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskListTableViewController.h; sourceTree = "<group>"; };
+		6762B18D1BF285A7004A289F /* TaskListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskListTableViewController.m; sourceTree = "<group>"; };
+		6762B18F1BF285C0004A289F /* EditTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditTaskViewController.h; sourceTree = "<group>"; };
+		6762B1901BF285C0004A289F /* EditTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditTaskViewController.m; sourceTree = "<group>"; };
+		6762B1921BF285D7004A289F /* DueDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DueDateViewController.h; sourceTree = "<group>"; };
+		6762B1931BF285D7004A289F /* DueDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DueDateViewController.m; sourceTree = "<group>"; };
+		6762B1951BF285F6004A289F /* PriorityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriorityViewController.h; sourceTree = "<group>"; };
+		6762B1961BF285F6004A289F /* PriorityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriorityViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +93,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67019B511BF675E60067BF3B /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				6762B1861BF2827A004A289F /* Task.h */,
+				6762B1871BF2827A004A289F /* Task.m */,
+				6762B1881BF2827A004A289F /* TaskList.h */,
+				6762B1891BF2827A004A289F /* TaskList.m */,
+			);
+			name = Tasks;
+			sourceTree = "<group>";
+		};
+		67019B521BF675F50067BF3B /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				6762B1561BF279ED004A289F /* AppDelegate.h */,
+				6762B1571BF279ED004A289F /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		67019B531BF676010067BF3B /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				6762B18C1BF285A7004A289F /* TaskListTableViewController.h */,
+				6762B18D1BF285A7004A289F /* TaskListTableViewController.m */,
+				6762B18F1BF285C0004A289F /* EditTaskViewController.h */,
+				6762B1901BF285C0004A289F /* EditTaskViewController.m */,
+				6762B1951BF285F6004A289F /* PriorityViewController.h */,
+				6762B1961BF285F6004A289F /* PriorityViewController.m */,
+				6762B1921BF285D7004A289F /* DueDateViewController.h */,
+				6762B1931BF285D7004A289F /* DueDateViewController.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
 		6762B1471BF279ED004A289F = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +151,10 @@
 		6762B1521BF279ED004A289F /* ShihChi_Lin_Lab4 */ = {
 			isa = PBXGroup;
 			children = (
-				6762B1561BF279ED004A289F /* AppDelegate.h */,
-				6762B1571BF279ED004A289F /* AppDelegate.m */,
-				6762B1591BF279ED004A289F /* ViewController.h */,
-				6762B15A1BF279ED004A289F /* ViewController.m */,
+				67019B511BF675E60067BF3B /* Tasks */,
+				67019B521BF675F50067BF3B /* App Delegate */,
 				6762B15C1BF279ED004A289F /* Main.storyboard */,
+				67019B531BF676010067BF3B /* Class */,
 				6762B15F1BF279ED004A289F /* Assets.xcassets */,
 				6762B1611BF279ED004A289F /* LaunchScreen.storyboard */,
 				6762B1641BF279ED004A289F /* Info.plist */,
@@ -273,9 +322,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6762B15B1BF279ED004A289F /* ViewController.m in Sources */,
+				6762B18A1BF2827A004A289F /* Task.m in Sources */,
+				6762B1941BF285D7004A289F /* DueDateViewController.m in Sources */,
+				6762B18B1BF2827A004A289F /* TaskList.m in Sources */,
 				6762B1581BF279ED004A289F /* AppDelegate.m in Sources */,
+				6762B1971BF285F6004A289F /* PriorityViewController.m in Sources */,
+				6762B1911BF285C0004A289F /* EditTaskViewController.m in Sources */,
 				6762B1551BF279ED004A289F /* main.m in Sources */,
+				6762B18E1BF285A7004A289F /* TaskListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,6 +555,7 @@
 				6762B17F1BF279ED004A289F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6762B1801BF279ED004A289F /* Build configuration list for PBXNativeTarget "ShihChi_Lin_Lab4Tests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +564,7 @@
 				6762B1821BF279ED004A289F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6762B1831BF279ED004A289F /* Build configuration list for PBXNativeTarget "ShihChi_Lin_Lab4UITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +573,7 @@
 				6762B1851BF279ED004A289F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
